@@ -17,10 +17,6 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Copy Logo
-PRODUCT_COPY_FILES += \
-   device/xiaomi/markw/splashlogo.png:recovery/root/twres/images/splashlogo.png
-
 # Release name
 PRODUCT_RELEASE_NAME := markw
 
