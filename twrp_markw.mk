@@ -11,7 +11,7 @@ $(call inherit-product, device/xiaomi/markw/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit any OrangeFox-specific settings
-$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_begonia.mk)
+$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_markw.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
